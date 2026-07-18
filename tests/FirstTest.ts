@@ -3,7 +3,7 @@ import {chromium}  from '@playwright/test';
 (async() =>{
 //creating browser instance
 
-const browser =await chromium.launch({headless:false});
+const browser =await chromium.launch({headless:true});
 
 // Browser Instance
 
