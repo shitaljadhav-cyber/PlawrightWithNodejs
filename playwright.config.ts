@@ -67,7 +67,7 @@ export default defineConfig({
     {
       name: 'Mobile Chrome',
       use: { 
-        headless: false,
+        headless: true,
         ...devices['Pixel 5'] },
     },
     // {
