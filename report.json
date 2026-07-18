@@ -1,0 +1,679 @@
+{
+  "config": {
+    "argv": [],
+    "configFile": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/playwright.config.ts",
+    "rootDir": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 5
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 5
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 5
+        },
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "3way",
+    "version": "1.61.1",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "example.spec.ts",
+      "file": "example.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2947,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-18T08:05:25.654Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-b06063a3e613764d08f8",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 3864,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-18T08:05:25.653Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-274e97907a6e3638a22f",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        },
+        {
+          "title": "has title",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7323,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-18T08:05:29.665Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-b59684751ba4e0c326d2",
+          "file": "example.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "get started link",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 6950,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-18T08:05:30.596Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "a30a6eba6312f6b87ea5-20751165d522b4e98010",
+          "file": "example.spec.ts",
+          "line": 10,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Wearhouse.spec.ts",
+      "file": "Wearhouse.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigate to WebSite",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 5625,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-18T08:05:25.642Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ad01344c035c990c13d1-0ea2368e788b07c9f64d",
+          "file": "Wearhouse.spec.ts",
+          "line": 8,
+          "column": 5
+        },
+        {
+          "title": "Navigate to WebSite",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "parallelIndex": 3,
+                  "status": "timedOut",
+                  "duration": 30218,
+                  "error": {
+                    "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                    "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                  },
+                  "errors": [
+                    {
+                      "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                    },
+                    {
+                      "location": {
+                        "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/Wearhouse.spec.ts",
+                        "column": 50,
+                        "line": 34
+                      },
+                      "message": "Error: locator.hover: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('data-test-id=category-root')\u001b[22m\n\u001b[2m    - locator resolved to <button data-test-id=\"category-root\" data-action=\"expand-mega-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    47 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 32 |\u001b[39m\n \u001b[90m 33 |\u001b[39m \u001b[90m// Hover \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 34 |\u001b[39m \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m)\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                  \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 35 |\u001b[39m \u001b[36mawait\u001b[39m  expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 36 |\u001b[39m\n \u001b[90m 37 |\u001b[39m \u001b[90m//await  expect(page.locator(\"data-test-id=category-root\")).not.toBeVisible(); // To test negative scenario\u001b[39m\u001b[0m\n\u001b[2m    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/Wearhouse.spec.ts:34:50\u001b[22m"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-18T08:05:30.695Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/test-results/Wearhouse-Navigate-to-WebSite-Mobile-Chrome/error-context.md"
+                    }
+                  ]
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "ad01344c035c990c13d1-a943774cd8bb8423ba0c",
+          "file": "Wearhouse.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "WearhouseBDD.spec.ts",
+      "file": "WearhouseBDD.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Automate a WebSite",
+          "file": "WearhouseBDD.spec.ts",
+          "line": 8,
+          "column": 15,
+          "specs": [
+            {
+              "title": "Navigate to Furniture Page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "parallelIndex": 3,
+                      "status": "passed",
+                      "duration": 3984,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to Website",
+                          "duration": 17
+                        },
+                        {
+                          "title": "Click on Funrniture",
+                          "duration": 1086
+                        }
+                      ],
+                      "startTime": "2026-07-18T08:05:25.665Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "979c62b515413f73219e-049e11755bc3eb0aead0",
+              "file": "WearhouseBDD.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Navigate to Kitchen Page",
+              "ok": false,
+              "tags": [
+                "smoke",
+                "release.1"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Launchig Warehouse website",
+                      "location": {
+                        "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                        "line": 34,
+                        "column": 9
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "parallelIndex": 4,
+                      "status": "failed",
+                      "duration": 10168,
+                      "error": {
+                        "message": "Error: locator.click: Error: strict mode violation: locator('text=Kitchen') resolved to 6 elements:\n    1) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-homeappliances-smallkitchenappliances\" href=\"/c/home-garden-appliances/home-appliances/kitchen-appliances\">Kitchen Appliances</a> aka getByText('Kitchen Appliances')\n    2) <a data-category-level=\"2.0\" class=\"mega-menu-subcategory-title\" href=\"/c/home-garden-appliances/kitchen\">Kitchen</a> aka getByLabel('Home, Garden & Appliances').getByText('Kitchen', { exact: true })\n    3) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenknives\" href=\"/c/home-garden-appliances/kitchen/kitchen-knives\">Kitchen Knives</a> aka getByText('Kitchen Knives')\n    4) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenstorage\" href=\"/c/home-garden-appliances/kitchen/kitchen-storage\">Kitchen Storage</a> aka getByText('Kitchen Storage')\n    5) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-foodhouseholdpets-household-kitchen\" href=\"/c/food-pets-household/household-essentials/kitchen\">Kitchen</a> aka getByLabel('Food, Pets & Household').getByText('Kitchen', { exact: true })\n    6) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" href=\"/c/food-pets-household/top-brands/market-kitchen\" id=\"category-foodhouseholdpets-topbrands-marketkitchen\">Market Kitchen</a> aka getByText('Market Kitchen')\n\nCall log:\n\u001b[2m  - waiting for locator('text=Kitchen')\u001b[22m\n",
+                        "stack": "Error: locator.click: Error: strict mode violation: locator('text=Kitchen') resolved to 6 elements:\n    1) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-homeappliances-smallkitchenappliances\" href=\"/c/home-garden-appliances/home-appliances/kitchen-appliances\">Kitchen Appliances</a> aka getByText('Kitchen Appliances')\n    2) <a data-category-level=\"2.0\" class=\"mega-menu-subcategory-title\" href=\"/c/home-garden-appliances/kitchen\">Kitchen</a> aka getByLabel('Home, Garden & Appliances').getByText('Kitchen', { exact: true })\n    3) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenknives\" href=\"/c/home-garden-appliances/kitchen/kitchen-knives\">Kitchen Knives</a> aka getByText('Kitchen Knives')\n    4) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenstorage\" href=\"/c/home-garden-appliances/kitchen/kitchen-storage\">Kitchen Storage</a> aka getByText('Kitchen Storage')\n    5) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-foodhouseholdpets-household-kitchen\" href=\"/c/food-pets-household/household-essentials/kitchen\">Kitchen</a> aka getByLabel('Food, Pets & Household').getByText('Kitchen', { exact: true })\n    6) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" href=\"/c/food-pets-household/top-brands/market-kitchen\" id=\"category-foodhouseholdpets-topbrands-marketkitchen\">Market Kitchen</a> aka getByText('Market Kitchen')\n\nCall log:\n\u001b[2m  - waiting for locator('text=Kitchen')\u001b[22m\n\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:62:48\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:53:9",
+                        "location": {
+                          "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                          "column": 48,
+                          "line": 62
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.mega-menu-content-wrapper >> #category-homegarden'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"text=Kitchen\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m\n \u001b[90m 64 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                            "column": 48,
+                            "line": 62
+                          },
+                          "message": "Error: locator.click: Error: strict mode violation: locator('text=Kitchen') resolved to 6 elements:\n    1) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-homeappliances-smallkitchenappliances\" href=\"/c/home-garden-appliances/home-appliances/kitchen-appliances\">Kitchen Appliances</a> aka getByText('Kitchen Appliances')\n    2) <a data-category-level=\"2.0\" class=\"mega-menu-subcategory-title\" href=\"/c/home-garden-appliances/kitchen\">Kitchen</a> aka getByLabel('Home, Garden & Appliances').getByText('Kitchen', { exact: true })\n    3) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenknives\" href=\"/c/home-garden-appliances/kitchen/kitchen-knives\">Kitchen Knives</a> aka getByText('Kitchen Knives')\n    4) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenstorage\" href=\"/c/home-garden-appliances/kitchen/kitchen-storage\">Kitchen Storage</a> aka getByText('Kitchen Storage')\n    5) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-foodhouseholdpets-household-kitchen\" href=\"/c/food-pets-household/household-essentials/kitchen\">Kitchen</a> aka getByLabel('Food, Pets & Household').getByText('Kitchen', { exact: true })\n    6) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" href=\"/c/food-pets-household/top-brands/market-kitchen\" id=\"category-foodhouseholdpets-topbrands-marketkitchen\">Market Kitchen</a> aka getByText('Market Kitchen')\n\nCall log:\n\u001b[2m  - waiting for locator('text=Kitchen')\u001b[22m\n\n\n\u001b[0m \u001b[90m 60 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.mega-menu-content-wrapper >> #category-homegarden'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"text=Kitchen\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m\n \u001b[90m 64 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m\n\u001b[2m    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:62:48\u001b[22m\n\u001b[2m    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:53:9\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to Website",
+                          "duration": 15
+                        },
+                        {
+                          "title": "Click on Kitchen",
+                          "duration": 922,
+                          "error": {
+                            "message": "Error: locator.click: Error: strict mode violation: locator('text=Kitchen') resolved to 6 elements:\n    1) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-homeappliances-smallkitchenappliances\" href=\"/c/home-garden-appliances/home-appliances/kitchen-appliances\">Kitchen Appliances</a> aka getByText('Kitchen Appliances')\n    2) <a data-category-level=\"2.0\" class=\"mega-menu-subcategory-title\" href=\"/c/home-garden-appliances/kitchen\">Kitchen</a> aka getByLabel('Home, Garden & Appliances').getByText('Kitchen', { exact: true })\n    3) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenknives\" href=\"/c/home-garden-appliances/kitchen/kitchen-knives\">Kitchen Knives</a> aka getByText('Kitchen Knives')\n    4) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenstorage\" href=\"/c/home-garden-appliances/kitchen/kitchen-storage\">Kitchen Storage</a> aka getByText('Kitchen Storage')\n    5) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-foodhouseholdpets-household-kitchen\" href=\"/c/food-pets-household/household-essentials/kitchen\">Kitchen</a> aka getByLabel('Food, Pets & Household').getByText('Kitchen', { exact: true })\n    6) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" href=\"/c/food-pets-household/top-brands/market-kitchen\" id=\"category-foodhouseholdpets-topbrands-marketkitchen\">Market Kitchen</a> aka getByText('Market Kitchen')\n\nCall log:\n\u001b[2m  - waiting for locator('text=Kitchen')\u001b[22m\n",
+                            "stack": "Error: locator.click: Error: strict mode violation: locator('text=Kitchen') resolved to 6 elements:\n    1) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-homeappliances-smallkitchenappliances\" href=\"/c/home-garden-appliances/home-appliances/kitchen-appliances\">Kitchen Appliances</a> aka getByText('Kitchen Appliances')\n    2) <a data-category-level=\"2.0\" class=\"mega-menu-subcategory-title\" href=\"/c/home-garden-appliances/kitchen\">Kitchen</a> aka getByLabel('Home, Garden & Appliances').getByText('Kitchen', { exact: true })\n    3) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenknives\" href=\"/c/home-garden-appliances/kitchen/kitchen-knives\">Kitchen Knives</a> aka getByText('Kitchen Knives')\n    4) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-homegarden-kitchen-kitchenstorage\" href=\"/c/home-garden-appliances/kitchen/kitchen-storage\">Kitchen Storage</a> aka getByText('Kitchen Storage')\n    5) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" id=\"category-foodhouseholdpets-household-kitchen\" href=\"/c/food-pets-household/household-essentials/kitchen\">Kitchen</a> aka getByLabel('Food, Pets & Household').getByText('Kitchen', { exact: true })\n    6) <a role=\"menuitem\" data-category-level=\"3.0\" class=\"mega-menu-subcategory-title\" href=\"/c/food-pets-household/top-brands/market-kitchen\" id=\"category-foodhouseholdpets-topbrands-marketkitchen\">Market Kitchen</a> aka getByText('Market Kitchen')\n\nCall log:\n\u001b[2m  - waiting for locator('text=Kitchen')\u001b[22m\n\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:62:48\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:53:9",
+                            "location": {
+                              "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                              "column": 48,
+                              "line": 62
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 60 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'.mega-menu-content-wrapper >> #category-homegarden'\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m 61 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 62 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"text=Kitchen\"\u001b[39m)\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 63 |\u001b[39m\n \u001b[90m 64 |\u001b[39m         })\u001b[33m;\u001b[39m\n \u001b[90m 65 |\u001b[39m\u001b[0m"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-07-18T08:05:25.679Z",
+                      "annotations": [
+                        {
+                          "type": "info",
+                          "description": "Launchig Warehouse website",
+                          "location": {
+                            "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                            "line": 34,
+                            "column": 9
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/test-results/WearhouseBDD-Automate-a-WebSite-Navigate-to-Kitchen-Page-chromium/test-failed-1.png"
+                        },
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/test-results/WearhouseBDD-Automate-a-WebSite-Navigate-to-Kitchen-Page-chromium/error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                        "column": 48,
+                        "line": 62
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "979c62b515413f73219e-47451821f5be213986c7",
+              "file": "WearhouseBDD.spec.ts",
+              "line": 34,
+              "column": 9
+            },
+            {
+              "title": "Navigate to Furniture Page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "parallelIndex": 2,
+                      "status": "timedOut",
+                      "duration": 30247,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                            "column": 62,
+                            "line": 21
+                          },
+                          "message": "Error: locator.hover: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('data-test-id=category-root')\u001b[22m\n\u001b[2m    - locator resolved to <button data-test-id=\"category-root\" data-action=\"expand-mega-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    33 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m\"Click on Funrniture\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 20 |\u001b[39m             \u001b[90m// Hover \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m)\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 22 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m             \u001b[90m//await  expect(page.locator(\"data-test-id=category-root\")).not.toBeVisible(); // To test negative scenario\u001b[39m\u001b[0m\n\u001b[2m    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:21:62\u001b[22m\n\u001b[2m    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:19:9\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to Website",
+                          "duration": 16
+                        },
+                        {
+                          "title": "Click on Funrniture",
+                          "duration": 18233,
+                          "error": {
+                            "message": "Error: locator.hover: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('data-test-id=category-root')\u001b[22m\n\u001b[2m    - locator resolved to <button data-test-id=\"category-root\" data-action=\"expand-mega-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    33 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+                            "stack": "Error: locator.hover: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('data-test-id=category-root')\u001b[22m\n\u001b[2m    - locator resolved to <button data-test-id=\"category-root\" data-action=\"expand-mega-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    33 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:21:62\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:19:9",
+                            "location": {
+                              "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                              "column": 62,
+                              "line": 21
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 19 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m\"Click on Funrniture\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 20 |\u001b[39m             \u001b[90m// Hover \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 21 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m)\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 22 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 23 |\u001b[39m\n \u001b[90m 24 |\u001b[39m             \u001b[90m//await  expect(page.locator(\"data-test-id=category-root\")).not.toBeVisible(); // To test negative scenario\u001b[39m\u001b[0m"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-07-18T08:05:32.152Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/test-results/WearhouseBDD-Automate-a-WebSite-Navigate-to-Furniture-Page-Mobile-Chrome/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "979c62b515413f73219e-0597d8211ca0e9239d49",
+              "file": "WearhouseBDD.spec.ts",
+              "line": 9,
+              "column": 9
+            },
+            {
+              "title": "Navigate to Kitchen Page",
+              "ok": false,
+              "tags": [
+                "smoke",
+                "release.1"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [
+                    {
+                      "type": "info",
+                      "description": "Launchig Warehouse website",
+                      "location": {
+                        "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                        "line": 34,
+                        "column": 9
+                      }
+                    }
+                  ],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [
+                    {
+                      "workerIndex": 9,
+                      "parallelIndex": 4,
+                      "status": "timedOut",
+                      "duration": 30224,
+                      "error": {
+                        "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                        "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                      },
+                      "errors": [
+                        {
+                          "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                        },
+                        {
+                          "location": {
+                            "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                            "column": 62,
+                            "line": 55
+                          },
+                          "message": "Error: locator.hover: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('data-test-id=category-root')\u001b[22m\n\u001b[2m    - locator resolved to <button data-test-id=\"category-root\" data-action=\"expand-mega-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    50 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n\n\u001b[0m \u001b[90m 53 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m\"Click on Kitchen\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 54 |\u001b[39m             \u001b[90m// Hover \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m)\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m             \u001b[90m//await  expect(page.locator(\"data-test-id=category-root\")).not.toBeVisible(); // To test negative scenario\u001b[39m\u001b[0m\n\u001b[2m    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:55:62\u001b[22m\n\u001b[2m    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:53:9\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "steps": [
+                        {
+                          "title": "Navigate to Website",
+                          "duration": 35
+                        },
+                        {
+                          "title": "Click on Kitchen",
+                          "duration": 27525,
+                          "error": {
+                            "message": "Error: locator.hover: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('data-test-id=category-root')\u001b[22m\n\u001b[2m    - locator resolved to <button data-test-id=\"category-root\" data-action=\"expand-mega-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    50 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n",
+                            "stack": "Error: locator.hover: Target page, context or browser has been closed\nCall log:\n\u001b[2m  - waiting for locator('data-test-id=category-root')\u001b[22m\n\u001b[2m    - locator resolved to <button data-test-id=\"category-root\" data-action=\"expand-mega-menu\">…</button>\u001b[22m\n\u001b[2m  - attempting hover action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m      - element is not visible\u001b[22m\n\u001b[2m    - retrying hover action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    50 × waiting for element to be visible and stable\u001b[22m\n\u001b[2m       - element is not visible\u001b[22m\n\u001b[2m     - retrying hover action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:55:62\n    at /Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts:53:9",
+                            "location": {
+                              "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                              "column": 62,
+                              "line": 55
+                            },
+                            "snippet": "\u001b[0m \u001b[90m 53 |\u001b[39m         \u001b[36mawait\u001b[39m test\u001b[33m.\u001b[39mstep(\u001b[32m\"Click on Kitchen\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m () \u001b[33m=>\u001b[39m {\n \u001b[90m 54 |\u001b[39m             \u001b[90m// Hover \u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 55 |\u001b[39m             \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m)\u001b[33m.\u001b[39mhover()\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 56 |\u001b[39m             \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m\"data-test-id=category-root\"\u001b[39m))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\n \u001b[90m 57 |\u001b[39m\n \u001b[90m 58 |\u001b[39m             \u001b[90m//await  expect(page.locator(\"data-test-id=category-root\")).not.toBeVisible(); // To test negative scenario\u001b[39m\u001b[0m"
+                          }
+                        }
+                      ],
+                      "startTime": "2026-07-18T08:05:36.864Z",
+                      "annotations": [
+                        {
+                          "type": "info",
+                          "description": "Launchig Warehouse website",
+                          "location": {
+                            "file": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/tests/WearhouseBDD.spec.ts",
+                            "line": 34,
+                            "column": 9
+                          }
+                        }
+                      ],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "/Users/shital/Documents/MyCodingProjects/PlayWrightProject/PlawrightWithNodejs/test-results/WearhouseBDD-Automate-a-WebSite-Navigate-to-Kitchen-Page-Mobile-Chrome/error-context.md"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "979c62b515413f73219e-98e8482b2ccf61450e0e",
+              "file": "WearhouseBDD.spec.ts",
+              "line": 34,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-18T08:05:25.295Z",
+    "duration": 42040.84,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 4,
+    "flaky": 0
+  }
+}
